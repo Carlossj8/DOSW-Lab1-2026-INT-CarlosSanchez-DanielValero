@@ -5,3 +5,5 @@ file:///C:/Users/Daniel/Downloads/IMG_1539.pdf
 Yo, Daniel Valero soy un candidato ideal para DOSW company, debido a que tengo grandes habilidades al abstraer informacion para resolver problemas, tengo conocimiento en diferentes lenguajes de programacion, soy un gran compañero y lider a la hora de trabajar en equipo, no destaco en el desarrollo pero si aporto significativamente en los avances, entregables y proyectos.
 
 pdt: No dejar cuentas abriertas en el laboratorio 
+pdt 2 :CARLOS ANDRES SANCHEZ JIMENEZ es mejor cerrar todo 
+no te cuesta 5 min
