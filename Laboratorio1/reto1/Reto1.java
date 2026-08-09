@@ -7,7 +7,7 @@ public class Reto1 {
     private static ArrayList<Estudiante> estudiantes;
 
     public static void main(String[] args) {
-        Scanner scanner =new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce el numero de estudiantes");
         estudiantes = new ArrayList<>();
         int n = scanner.nextInt();
@@ -38,7 +38,7 @@ public class Reto1 {
         mensaje.imprimirMensaje(estudiantes);
     }
 
-    public static ArrayList<Estudiante> getEstudiantes(){
+    public static ArrayList<Estudiante> getEstudiantes() {
         return estudiantes;
 
     }
