@@ -1,5 +1,18 @@
-# DOSW-Lab1-2026-INT-CarlosSanchez-DanielValero
-[Hoja de vida - Carlos Andres Sanchez Jimenez.pdf](https://github.com/user-attachments/files/30549147/Hoja.de.vida.-.Carlos.Andres.Sanchez.Jimenez.pdf)
-Yo, Carlos Sanchez soy el candidato ideal para DOSW company, ya que, poseo grandes habilidades para resolver los problemas que se nos presentan, tengo conocimientos suficientes en software para desarrollar las actividades y, trabajo bien en equipo
-file:///C:/Users/Daniel/Downloads/IMG_1539.pdf
-Yo, Daniel Valero soy un candidato ideal para DOSW company, debido a que tengo grandes habilidades al abstraer informacion para resolver problemas, tengo conocimiento en diferentes lenguajes de programacion, soy un gran compañero y lider a la hora de trabajar en equipo, no destaco en el desarrollo pero si aporto significativamente en los avances, entregables y proyectos.
+Preguntas Teoricas:
+1.
+merge: une dos ramas creando normalmente un commit de merge y conserva el historial.
+rebase: mueve los commits de una rama encima de otra, creando un historial más lineal.
+2.
+Se produce un conflicto de merge. Git no sabe cuál cambio conservar, así que debemos resolverlo manualmente y luego hacer el commit.
+3.
+con git log --oneline --graph --all
+4.
+Commit: guarda los cambios en el repositorio local.
+Push: envía esos commits desde el repositorio local al repositorio remoto, como GitHub.
+5.
+git stash: guarda temporalmente los cambios que todavía no has hecho commit.
+git stash pop: recupera esos cambios y los aplica nuevamente al proyecto.
+6.
+HashMap: no está sincronizado y permite valores null.
+Hashtable: está sincronizado y no permite null en claves ni valores.
+
