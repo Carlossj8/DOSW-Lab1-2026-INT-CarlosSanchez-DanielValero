@@ -28,6 +28,7 @@ public class Reto2 {
         Carril1 carril1 = new Carril1();
 
         int maximo = carril1.calcularMaximo(lista);
+        boolean maximoEsMultiploDeDos = carril1.esMultiploDeDos(maximo);
 
         boolean esDivisorDe2 = (maximo != 0) && (2 % maximo == 0);
 
@@ -35,11 +36,10 @@ public class Reto2 {
         System.out.println("Mínimo: " + menor);
         System.out.println("Máximo: " + maximo);
         System.out.println("Cantidad de datos ingresados: " + cantidad);
-        if (esDivisorDe2) {
-            System.out.println("El número mayor (" + maximo + ") ES divisor de 2.");
-        } else {
-            System.out.println("El número mayor (" + maximo + ") NO es divisor de 2.");
-        }
+        System.out.println("¿El máximo es múltiplo de 2?: " +
+                (maximoEsMultiploDeDos ? "Sí" : "No"));
+        System.out.println("¿El máximo es divisor de 2?: " +
+                (esDivisorDe2 ? "Sí" : "No"));
 
         scanner.close();
     }
