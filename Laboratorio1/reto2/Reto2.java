@@ -29,10 +29,17 @@ public class Reto2 {
 
         int maximo = carril1.calcularMaximo(lista);
 
+        boolean esDivisorDe2 = (maximo != 0) && (2 % maximo == 0);
+
         System.out.println("\n--- Resultados Combinados ---");
         System.out.println("Mínimo: " + menor);
         System.out.println("Máximo: " + maximo);
         System.out.println("Cantidad de datos ingresados: " + cantidad);
+        if (esDivisorDe2) {
+            System.out.println("El número mayor (" + maximo + ") ES divisor de 2.");
+        } else {
+            System.out.println("El número mayor (" + maximo + ") NO es divisor de 2.");
+        }
 
         scanner.close();
     }
