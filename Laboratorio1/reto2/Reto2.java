@@ -25,8 +25,13 @@ public class Reto2 {
         long cantidad = lista.stream()
                 .count();
 
-        System.out.println("\n--- Carril 2 (Estudiante A) ---");
+        Carril1 carril1 = new Carril1();
+
+        int maximo = carril1.calcularMaximo(lista);
+
+        System.out.println("\n--- Resultados Combinados ---");
         System.out.println("Mínimo: " + menor);
+        System.out.println("Máximo: " + maximo);
         System.out.println("Cantidad de datos ingresados: " + cantidad);
 
         scanner.close();
