@@ -10,4 +10,7 @@ public class Carril1 {
                 .reduce((a, b) -> a > b ? a : b)
                 .orElse(0);
     }
+    public boolean esMultiploDeDos(int numero) {
+        return numero % 2 == 0;
+    }
 }
