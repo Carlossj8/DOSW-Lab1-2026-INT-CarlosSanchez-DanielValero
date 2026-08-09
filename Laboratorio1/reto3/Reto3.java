@@ -1,5 +1,6 @@
 package Laboratorio1.reto3;
 
+import java.util.stream.Stream;
 import java.util.Scanner;
 
 public class Reto3 {
@@ -11,9 +12,19 @@ public class Reto3 {
         String mensaje = scanner.nextLine();
 
         CanalA canalA = new CanalA();
-        String resultadoCanalA = canalA.amplificarMensaje(mensaje);
+        CanalB canalB = new CanalB();
 
+
+        String resultadoCanalA = canalA.amplificarMensaje(mensaje);
         System.out.println("Canal A: \"" + resultadoCanalA + "\"");
+
+        String resultado = Stream.of(mensaje)
+                .map(msg -> canalB.invertirMensaje(canalA.amplificarMensaje(msg)))
+                .findFirst()
+                .orElse("");
+
+        System.out.println("Descifrado final:");
+        System.out.println("\"" + resultado + "\"");
 
         scanner.close();
     }

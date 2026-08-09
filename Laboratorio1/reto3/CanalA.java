@@ -1,19 +1,15 @@
 package Laboratorio1.reto3;
 
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class CanalA {
 
-    /**
-     * Recibe el mensaje cifrado y lo amplifica repitiéndolo 3 veces
-     * separado por espacio usando StringBuilder.
-     */
     public String amplificarMensaje(String mensaje) {
-        StringBuilder sb = new StringBuilder();
-
-        sb.append(mensaje)
-                .append(" ")
-                .append(mensaje)
-                .append(" ")
-                .append(mensaje);
+        StringBuilder sb = new StringBuilder(
+                Stream.of(mensaje, mensaje, mensaje)
+                        .collect(Collectors.joining(" "))
+        );
 
         return sb.toString();
     }
